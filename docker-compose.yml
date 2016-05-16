@@ -1,0 +1,6 @@
+docker-erlang:
+    images:erlang
+    volumes: - /home/zwq00000/erlang:/home
+    command: cd /home && git clone git@github.com:zwq00000/emqtt_benchmark.git
+    
+    
